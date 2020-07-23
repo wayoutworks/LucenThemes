@@ -1,0 +1,26 @@
+{
+  "name": "lucenthemes",
+  "version": "1.0.0",
+  "description": "Official Website for LucenThemes",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^1.5.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-cli": "^7.1.1"
+  },
+  "scripts": {
+    "build": "npx tailwindcss build src/css/tailwind.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wayoutworks/LucenThemes.git"
+  },
+  "author": "WayOutWorks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wayoutworks/LucenThemes/issues"
+  },
+  "homepage": "https://github.com/wayoutworks/LucenThemes#readme"
+}
