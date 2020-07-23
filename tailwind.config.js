@@ -1,10 +1,14 @@
 module.exports = {
   purge: {
-    enabled: true,
+    enabled: false,
     content: ["**/*.html"],
   },
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+      },
+    },
   },
   variants: {},
   plugins: [],
