@@ -21,7 +21,9 @@ module.exports = {
       }
     },
   },
-  variants: {},
+  variants: {
+    margin: ['hover'],
+  },
   plugins: [
     plugin(function({ addBase, config }) {
       addBase({

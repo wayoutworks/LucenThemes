@@ -2,6 +2,15 @@
 
 @tailwind components;
 
+* {
+  -webkit-transition: all 0.15s ease-in-out,
+    -webkit-transform 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, all 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, all 0.15s ease-in-out,
+    -webkit-transform 0.15s ease-in-out;
+}
+
 .card {
   border-radius: 20px;
   box-shadow: 0 10px 80px rgba(14, 72, 119, 0.2);
@@ -13,5 +22,10 @@
   transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     -webkit-transform 0.15s ease-in-out;
 }
+
+#features .card:hover{
+    border-radius: 0;
+}
+
 
 @tailwind utilities;
