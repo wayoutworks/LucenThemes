@@ -8,11 +8,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.5",
-    "copyfiles": "^2.3.0",
     "postcss-cli": "^7.1.1"
   },
   "scripts": {
-    "build": "npx tailwindcss build src/css/tailwind.css -o dist/style.css & copyfiles -f src/img/**.* dist/img"
+    "build": "npx tailwindcss build src/css/tailwind.css -o dist/style.css"
   },
   "repository": {
     "type": "git",
