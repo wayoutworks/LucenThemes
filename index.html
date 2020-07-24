@@ -7,14 +7,15 @@
     <title>LucenThemes | Building Themes</title>
   </head>
   <body>
-    <header class="bg-gray-400">
+    <!-- =============== Header =============== -->
+    <header class="bg-gray-100 mb-4">
       <div class="container">
         <!-- Navigation Menu -->
         <nav class="flex items-center justify-between flex-wrap p-6">
           <div
             class="flex items-center flex-shrink-0 lg:flex-grow text-white mr-6"
           >
-            <span class="font-semibold text-xl tracking-tight text-gray-900"
+            <span class="font-bold text-4xl tracking-tight text-gray-900"
               >Lucent Themes</span
             >
           </div>
@@ -32,35 +33,37 @@
               </svg>
             </button>
           </div>
-          <div class="w-full block lg:flex-grow-0 flex-grow lg:flex lg:w-auto">
-            <div class="text-sm">
+          <div
+            class="w-full block lg:flex-grow-0 flex-grow flex items-center lg:flex lg:w-auto"
+          >
+            <div class="text-lg font-medium">
               <a
                 href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
               >
                 WordPress Themes
               </a>
               <a
                 href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
               >
                 Blog
               </a>
               <a
                 href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
               >
                 Docs
               </a>
               <a
                 href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
               >
                 About us
               </a>
               <a
                 href="#responsive-header"
-                class="block mt-4 lg:inline-block lg:mt-0 mr-4"
+                class="block mt-4 lg:inline-block lg:mt-0 mr-4 text-gray-600 hover:text-gray-800"
               >
                 Support
               </a>
@@ -68,7 +71,7 @@
             <div>
               <a
                 href="#"
-                class="inline-block text-sm px-4 py-2 leading-none border rounded text-gray-100 border-white hover:border-transparent hover:text-teal-500 bg-gray-900 mt-4 lg:mt-0"
+                class="inline-block text-sm px-6 py-4 leading-none border rounded-full text-gray-100 font-semibold bg-gray-900"
                 >Check Themes</a
               >
             </div>
@@ -76,42 +79,107 @@
         </nav>
       </div>
     </header>
+    <!-- =============== Hero =============== -->
     <section id="hero">
       <div class="container">
-        <h3>Created For Awesomeness</h3>
-        <h1>Creative WordPress Themes for Everyone.</h1>
-        <p>
-          We Build a Beautiful, Clean & Modern Design Themes with SEO and
-          Blezzing Fast.
-        </p>
-        <img src="//sb-ui-kit-pro-angular.startbootstrap.com/assets/img/drawkit/color/drawkit-content-man-color.svg">
+        <div class="flex flex-col justify-between items-center text-center">
+          <div class="my-20">
+            <h3>Created For Awesomeness</h3>
+            <h1 class="text-5xl font-bold">
+              Creative WordPress Themes for Everyone.
+            </h1>
+            <p class="text-lg font-medium text-gray-600">
+              We Build a Beautiful, Clean & Modern Design Themes with SEO and
+              Blezzing Fast.
+            </p>
+          </div>
+          <img
+            class="w-2/4"
+            src="//sb-ui-kit-pro-angular.startbootstrap.com/assets/img/drawkit/color/drawkit-content-man-color.svg"
+          />
+        </div>
       </div>
     </section>
-    <section id="features">
+    <section id="features" class="mt-16 mb-20">
       <div class="container">
         <div class="flex mb-4">
           <div class="w-1/3">
-            <div>
-              <h2>Creative UI/UX</h2>
-              <p>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4 flex flex-col ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-heart text-blue-400 mt-5 p-2"
+              >
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                ></path>
+              </svg>
+              <h3 class="font-semibold mt-5">Creative UI/UX</h3>
+              <p class="text-gray-600 mt-5 mb-5">
                 Serspiciatis unde omnis iste natus error sit doloremque
                 laudantium, totam rem aperiam.
               </p>
             </div>
           </div>
           <div class="w-1/3">
-            <h2>Flexibility</h2>
-            <p>
-              Serspiciatis unde omnis iste natus error sit doloremque
-              laudantium, totam rem aperiam.
-            </p>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4 flex flex-col items-center justify-center text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-maximize-2 text-blue-400 mt-5 p-2"
+              >
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <polyline points="9 21 3 21 3 15"></polyline>
+                <line x1="21" y1="3" x2="14" y2="10"></line>
+                <line x1="3" y1="21" x2="10" y2="14"></line>
+              </svg>
+              <h3 class="font-semibold mt-5">Flexibility</h3>
+              <p class="text-gray-600 mt-5 mb-5">
+
+                Serspiciatis unde omnis iste natus error sit doloremque
+                laudantium, totam rem aperiam.
+              </p>
+            </div>
           </div>
           <div class="w-1/3">
-            <h2>Easy Code</h2>
-            <p>
-              Serspiciatis unde omnis iste natus error sit doloremque
-              laudantium, totam rem aperiam.
-            </p>
+            <div class="max-w-sm rounded overflow-hidden shadow-lg px-6 py-4 flex flex-col items-end justify-end text-right">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="60"
+                height="60"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-git-branch text-blue-400 mt-5 p-2"
+              >
+                <line x1="6" y1="3" x2="6" y2="15"></line>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <path d="M18 9a9 9 0 0 1-9 9"></path>
+              </svg>
+              <h3 class="font-semibold mt-5">Easy Code</h3>
+              <p class="text-gray-600 mt-5 mb-5">
+                Serspiciatis unde omnis iste natus error sit doloremque
+                laudantium, totam rem aperiam.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -136,7 +204,9 @@
             </ul>
           </div>
           <div class="w-1/2">
-            <img src="//themeht.com/bootsland/html/assets/images/about/03.png">
+            <img
+              src="//themeht.com/bootsland/html/assets/images/about/03.png"
+            />
           </div>
         </div>
       </div>
@@ -146,16 +216,22 @@
         <div class="flex mb-4">
           <div class="w-1/2">
             <div>
-              <img src="design.svg" alt="Design Icon">
+              <img src="design.svg" alt="Design Icon" />
               <h4>Work smarter, not harder</h4>
-                <p>Learn more about how our product can save you time and effort in a long run.</p>
+              <p>
+                Learn more about how our product can save you time and effort in
+                a long run.
+              </p>
             </div>
           </div>
           <div class="w-1/2">
             <div>
-              <img src="code.svg" alt="Code Icon">
+              <img src="code.svg" alt="Code Icon" />
               <h4>Built for Developers</h4>
-                <p>Our Components, utilities, and layouts are bui;lt with developers in mind.</p>
+              <p>
+                Our Components, utilities, and layouts are bui;lt with
+                developers in mind.
+              </p>
             </div>
           </div>
         </div>
