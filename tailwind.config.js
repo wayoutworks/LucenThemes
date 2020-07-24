@@ -10,6 +10,10 @@ module.exports = {
       container: {
         center: true,
       },
+      colors: {
+        'primary': '#f4a100',
+        'secondary': '#00ba94'
+      }
     },
   },
   variants: {},
