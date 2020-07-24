@@ -12,8 +12,7 @@
     "postcss-cli": "^7.1.1"
   },
   "scripts": {
-    "build": "npx tailwindcss build src/css/tailwind.css -o dist/style.css",
-    "copy": "copyfiles -f src/img/**.* dist/img"
+    "build": "npx tailwindcss build src/css/tailwind.css -o dist/style.css & copyfiles -f src/img/**.* dist/img"
   },
   "repository": {
     "type": "git",
