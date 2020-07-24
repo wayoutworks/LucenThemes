@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- =============== Theme CSS =============== -->
     <link rel="stylesheet" href="dist/style.css" />
+    <!-- =============== Google Font =============== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>LucenThemes | Building Themes</title>
   </head>
   <body>
-    <!-- =============== Header =============== -->
-    <header class="bg-white mb-4 b-2 ">
+    <!-- =============== Header Section =============== -->
+    <header class="bg-white mb-4 b-2">
       <div class="container">
         <!-- Navigation Menu -->
         <nav class="flex items-center justify-between flex-wrap p-6">
@@ -71,7 +77,7 @@
             <div>
               <a
                 href="#"
-                class="inline-block text-sm px-6 py-4 leading-none rounded-full text-gray-100 font-bold bg-gray-800"
+                class="inline-block text-sm px-6 py-4 leading-none rounded-full text-gray-100 font-bold font-heading bg-gray-800"
                 >Check Themes</a
               >
             </div>
@@ -79,13 +85,13 @@
         </nav>
       </div>
     </header>
-    <!-- =============== Hero =============== -->
+    <!-- =============== Hero Section =============== -->
     <section id="hero">
       <div class="container">
         <div class="flex flex-col justify-between items-center text-center">
           <div class="my-20">
             <h3>Created For Awesomeness</h3>
-            <h1 class="text-5xl font-bold">
+            <h1 class="text-5xl font-extrabold">
               Creative WordPress Themes for Everyone.
             </h1>
             <p class="text-lg font-medium text-gray-600">
@@ -122,6 +128,7 @@
         </div>
       </div>
     </section>
+    <!-- =============== Features Section =============== -->
     <section id="features" class="mt-16 mb-20">
       <div class="container">
         <div class="flex mb-4">
@@ -145,7 +152,7 @@
                   d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
                 ></path>
               </svg>
-              <h3 class="font-semibold mt-5">Creative UI/UX</h3>
+              <h3 class="font-bold mt-5">Creative UI/UX</h3>
               <p class="text-gray-600 mt-5 mb-5">
                 Serspiciatis unde omnis iste natus error sit doloremque
                 laudantium, totam rem aperiam.
@@ -173,7 +180,7 @@
                 <line x1="21" y1="3" x2="14" y2="10"></line>
                 <line x1="3" y1="21" x2="10" y2="14"></line>
               </svg>
-              <h3 class="font-semibold mt-5">Flexibility</h3>
+              <h3 class="font-bold mt-5">Flexibility</h3>
               <p class="text-gray-600 mt-5 mb-5">
                 Serspiciatis unde omnis iste natus error sit doloremque
                 laudantium, totam rem aperiam.
@@ -201,7 +208,7 @@
                 <circle cx="6" cy="18" r="3"></circle>
                 <path d="M18 9a9 9 0 0 1-9 9"></path>
               </svg>
-              <h3 class="font-semibold mt-5">Easy Code</h3>
+              <h3 class="font-bold mt-5">Easy Code</h3>
               <p class="text-gray-600 mt-5 mb-5">
                 Serspiciatis unde omnis iste natus error sit doloremque
                 laudantium, totam rem aperiam.
@@ -211,34 +218,82 @@
         </div>
       </div>
     </section>
+    <!-- =============== About Section =============== -->
     <section id="about">
       <div class="container">
         <div class="flex">
           <div class="w-1/2">
-            <h5>About Lucent Themes</h5>
-            <h1>A Creative landing Page</h1>
-            <p>
+            <h4 class="inline-block text-accent font-semibold border-solid border-b-2 border-accent">About Lucent Themes</h4>
+            <h1 class="font-bold text-5xl mb-1">A Creative landing Page</h1>
+            <p class="text-gray-600 text-lg lg:mb-16 mb-4">
               We use the latest technologies it voluptatem accusantium
               doloremque.
             </p>
             <ul>
-              <li>
+              <li class="inline-flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-primary p-2 pl-0"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
                 We use the latest technologies it voluptatem accusantium
                 doloremqu
               </li>
-              <li>Bootsland Landing Page Build With Static Bootstarp Code</li>
-              <li>All types of businesses need access to development</li>
+              <li class="inline-flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-primary p-2 pl-0"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bootsland Landing Page Build With Static Bootstarp Code
+              </li>
+              <li class="inline-flex items-center">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-check text-primary p-2 pl-0"
+                >
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                All types of businesses need access to development
+              </li>
             </ul>
           </div>
           <div class="w-1/2">
             <img
-              src="//themeht.com/bootsland/html/assets/images/about/03.png"
+              src="http://themeht.com/bootsland/html/assets/images/about/03.png"
             />
           </div>
         </div>
       </div>
     </section>
-    <section id="cta">
+    <!-- =============== CTA Section =============== -->
+    <section id="cta" class="hidden">
       <div class="container">
         <div class="flex mb-4">
           <div class="w-1/2">
@@ -276,7 +331,7 @@
         </div>
       </div>
     </section>
-    <footer class="bg-blue-600">
+    <footer class="bg-blue-600 hidden">
       <div class="container">
         <div class="flex mb-4">
           <div class="w-2/5">
