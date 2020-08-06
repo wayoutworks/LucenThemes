@@ -1,21 +1,29 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+// Front Page Component
+import Hero from "../components/frontpage/hero"
+import Features from "../components/frontpage/features"
+import About from "../components/frontpage/about"
+import Products from "../components/frontpage/products"
+import FAQ from "../components/frontpage/faq"
+import SecondaryFooter from "../components/frontpage/SecondaryFooter"
+import GetStart from "../components/frontpage/GetStart"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    <Hero/> 
+    <Features />
+    <About />
+    <Products />
+    <FAQ />
+    <SecondaryFooter />
+    <GetStart />
   </Layout>
 )
 
