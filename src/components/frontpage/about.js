@@ -16,13 +16,13 @@ const About = () => {
   `)
   return (
     <section id="about" className="px-5">
-      <div className="container">
-        <div className="flex flex-wrap">
-          <div className="lg:w-1/2 w-full">
+      <div className="container align-middle">
+        <div className="flex flex-wrap align-middle">
+          <div className="lg:w-1/2 w-full pt-12">
             <h4 className="inline-block text-accent font-semibold border-solid border-b-2 border-accent">
               About Lucent Themes
             </h4>
-            <h1 className="font-bold text-5xl mb-1">A Creative landing Page</h1>
+            <h1 className="font-bold text-5xl mb-1 pt-8 pb-4">A Creative landing Page</h1>
             <p className="text-gray-600 text-lg lg:mb-16 mb-4">
               We use the latest technologies it voluptatem accusantium
               doloremque.

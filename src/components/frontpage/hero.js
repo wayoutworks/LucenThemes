@@ -23,7 +23,7 @@ const Hero = () => {
             <h1 className="lg:text-5xl text-4xl font-extrabold mb-4">
               Creative WordPress Themes for Everyone.
             </h1>
-            <p className="text-lg font-medium text-gray-600">
+            <p className="text-xl font-medium text-gray-600">
               We Build a Beautiful, Clean & Modern Design Themes with SEO and
               Blezzing Fast.
             </p>

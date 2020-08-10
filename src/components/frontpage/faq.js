@@ -12,8 +12,8 @@ const FAQ = () => {
               </h1>
             </div>
           </div>
-          <div className="flex">
-            <div className="w-1/2 mb-20 p-5">
+          <div className="flex flex-wrap lg:flex-no-wrap">
+            <div className="w-full lg:w-1/2 mb-20 p-5">
               <h4 className="mb-1 font-bold">
                 Why your all products are Open Source?
               </h4>
@@ -22,7 +22,7 @@ const FAQ = () => {
                 giving back.
               </p>
             </div>
-            <div className="w-1/2 mb-20 p-5">
+            <div className="w-full lg:w-1/2 mb-20 p-5">
               <h4 className="mb-1 font-bold">
                 Where can I get documentation of Agility WP Theme?
               </h4>
@@ -32,8 +32,8 @@ const FAQ = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
-            <div className="w-1/2 mb-20 p-5">
+          <div className="flex flex-wrap lg:flex-no-wrap">
+            <div className="w-full lg:w-1/2 mb-20 p-5">
               <h4 className="mb-1 font-bold">
                 Where to look for custom development task?
               </h4>
@@ -42,7 +42,7 @@ const FAQ = () => {
                 all custom developemnt or designing works.
               </p>
             </div>
-            <div className="w-1/2 mb-20 p-5">
+            <div className="w-full lg:w-1/2 mb-20 p-5">
               <h4 className="mb-1 font-bold">
                 Do you offer support for Free themes?
               </h4>

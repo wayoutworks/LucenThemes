@@ -17,18 +17,18 @@ const Footer = () => {
   return (
     <footer className="pb-32">
       <div className="container">
-        <div className="flex mb-4">
-          <div className="w-2/5">
-            <div className="flex flex-col pr-32">
+        <div className="flex mb-4 flex-wrap lg:flex-no-wrap">
+          <div className="w-full lg:w-2/5">
+            <div className="flex flex-col lg:pr-32 px-5 pb-8">
               <h1 className="text-gray-900 uppercase font-bold mb-4 hidden">
                 Contact Us
               </h1>
               <Img fluid={data.placeholderImage.childImageSharp.fluid} />
             </div>
           </div>
-          <div className="w-3/5">
+          <div className="w-full lg:w-3/5 p-3">
             <div className="flex mb-4">
-              <div className="w-1/3">
+              <div className="w-full lg:w-1/3">
                 <h3 className="uppercase font-bold text-xl mb-4">Pages</h3>
                 <ul>
                   <li className="mb-2 font-heading flex items-center">
@@ -128,7 +128,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-1/3">
+              <div className="w-full lg:w-1/3">
                 <h3 className="uppercase font-bold text-xl mb-4">Service</h3>
                 <ul>
                   <li className="mb-2 font-heading flex">
@@ -228,7 +228,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-1/3">
+              <div className="w-full lg:w-1/3">
                 <h3 className="uppercase font-bold text-xl mb-4">Legal</h3>
                 <ul>
                   <li className="mb-2 font-heading flex items-center">
@@ -291,8 +291,8 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="flex">
-              <div className="w-1/2">
+            <div className="flex flex-wrap">
+              <div className="w-full lg:w-1/2">
                 <div>
                   <h3>Logo</h3>
                   <div className="hidden">
@@ -303,7 +303,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-1/2">
+              <div className="w-full lg:w-1/2">
                 <h3 className="uppercase font-bold text-xl mb-4 inline-block border-b border-secondary">
                   Connect With Us
                 </h3>
